@@ -1,0 +1,195 @@
+<!doctype>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>NewDasboard</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAk/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSk3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		
+		<style>
+		
+
+			.form-group {position: relative;padding: 15px 0 0;margin-top:10px;}
+			.custom-form-field {			 
+			  width: 100%;
+			  border: 0;
+			  border-bottom:2px solid #C1C1C1;
+			  outline: 0;				  
+			  padding: 7px 0;
+			  background: transparent;
+			  transition: border-color 0.2s;
+			}
+
+			.custom-form-field::placeholder{color:transparent;}
+			.custom-form-field:placeholder-shown ~.custom-form-label{font-size:15px;cursor:text;top:10px;}
+
+			.custom-label,
+			.custom-form-field:focus ~.custom-form-label {
+			  position: absolute;
+			  top: 0;
+			  display: block;
+			  transition: 0.2s;
+			  font-size: 12px;			 
+			}
+
+			.custom-form-field:focus ~.custom-form-label{color:#009788;}
+			.custom-form-field:focus{padding-bottom:6px;border-bottom:2px solid #009788;}
+		
+	
+		</style>
+		
+		<script>
+	
+		</script>
+		
+		
+		
+		
+	</head>
+	<body>
+		<div class="container text-justify">
+		
+		<div class="row"><!-----ROW START----->
+				
+				
+			<div class="col-md-12 col-sm-12 border-top border-dark mt-5 bg-dark text-white pb-2"><!---COL START---->							
+			<div class="row">
+				<div class="col-4">	
+					<div class="form-group">
+					  <input  type="text" id="Username" class="custom-form-field" placeholder="Username">
+					  <label  for="Username" class="custom-form-label custom-label">Username</label>
+					</div>
+				</div>
+				
+				
+				
+				<div class="col-4">
+					<div class="form-group">
+					  <input  type="text" id="Password" class="custom-form-field" placeholder="Password">
+					  <label  for="Password" class="custom-form-label custom-label">Password</label>
+					</div>
+				</div>
+				
+				<div class="col-4">
+					<div class="form-group">
+					  <input  type="text" id="First Name" class="custom-form-field" placeholder="First Name">
+					  <label  for="First Name" class="custom-form-label custom-label">First Name</label>
+					</div>
+				</div>
+				
+				<div class="col-4">	
+					<div class="form-group">
+					  <input  type="text" id="Middle Name" class="custom-form-field" placeholder="Middle Name">
+					  <label  for="Middle Name" class="custom-form-label custom-label">Middle Name</label>
+					</div>
+				</div>
+				
+				
+				
+				<div class="col-4">
+					<div class="form-group">
+					  <input  type="text" id="Last Name" class="custom-form-field" placeholder="Last Name">
+					  <label  for="Last Name" class="custom-form-label custom-label">Last Name</label>
+					</div>
+				</div>
+				
+				<div class="col-4">
+					<div class="form-group">
+					  <input  type="text" id="Address" class="custom-form-field" placeholder="Address">
+					  <label  for="Address" class="custom-form-label custom-label">Address</label>
+					</div>
+				</div>
+				
+				
+				
+				<div class="col-4">	
+					<div class="form-group">
+					  <input  type="text" id="city" class="custom-form-field" placeholder="City">
+					  <label  for="city" class="custom-form-label custom-label">City</label>
+					</div>
+				</div>
+				
+				
+				
+				<div class="col-4">
+					<div class="form-group">
+					  <input  type="text" id="Country" class="custom-form-field" placeholder="Country">
+					  <label  for="Country" class="custom-form-label custom-label">Country</label>
+					</div>
+				</div>
+				
+				<div class="col-4">
+					<div class="form-group">
+					  <input  type="text" id="State Code" class="custom-form-field" placeholder="State Code">
+					  <label  for="State Code" class="custom-form-label custom-label">State Code</label>
+					</div>
+				</div>
+				
+				<div class="col-4">	
+					<div class="form-group">
+					  <input  type="Postal Code" id="city" class="custom-form-field" placeholder="Postal Code">
+					  <label  for="Postal Code" class="custom-form-label custom-label">Postal Code</label>
+					</div>
+				</div>
+				
+				
+				
+				<div class="col-4">
+					<div class="form-group">
+					  <input  type="text" id="Telephone" class="custom-form-field" placeholder="Telephone">
+					  <label  for="Telephone" class="custom-form-label custom-label">Telephone</label>
+					</div>
+				</div>
+				
+				<div class="col-4">
+					<div class="form-group">
+					  <input  type="text" id="Fax" class="custom-form-field" placeholder="Fax">
+					  <label  for="Fax" class="custom-form-label custom-label">Fax</label>
+					</div>
+				</div>
+				
+				
+				
+				<div class="col-4">	
+					<div class="form-group">
+					  <input  type="text" id="Email" class="custom-form-field" placeholder="Email">
+					  <label  for="Email" class="custom-form-label custom-label">Email</label>
+					</div>
+				</div>
+				
+				<div class="col-4">	
+					
+				</div>
+				
+				<div class="col-4 pt-5">	
+					<button type="button" class="btn btn-outline-primary py-1  float-md-right rounded-0">SUBMIT</button>
+				</div>
+				
+				
+				
+			</div>	
+			
+			
+		</div><!----col--END-->
+			
+	</div><!--row--end TOTAL-->
+		
+		
+</div><!---container-->	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	</body>
+</html>
